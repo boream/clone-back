@@ -614,6 +614,9 @@
                 },
                 "lastname": {
                   "type": "string"
+                },
+                "profile": {
+                  "type": "string"
                 }
               }
             }
