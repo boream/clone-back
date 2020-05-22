@@ -617,6 +617,15 @@
                 },
                 "profile": {
                   "type": "string"
+                },
+                "images": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "active": {
+                  "type": "boolean"
                 }
               }
             }
