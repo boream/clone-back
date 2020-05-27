@@ -1,20 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "tags",
   "info": {
-    "name": "Category"
+    "name": "tag"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "name": {
       "type": "string"
     },
     "images": {
-      "collection": "image",
-      "via": "category"
+      "via": "tags",
+      "collection": "image"
     }
   }
 }
