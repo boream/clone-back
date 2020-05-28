@@ -619,10 +619,7 @@
                   "type": "string"
                 },
                 "images": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
+                  "type": "string"
                 },
                 "active": {
                   "type": "boolean"

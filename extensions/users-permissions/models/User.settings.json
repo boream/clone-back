@@ -69,8 +69,7 @@
       "required": false
     },
     "images": {
-      "collection": "image",
-      "via": "user"
+      "collection": "image"
     },
     "active": {
       "type": "boolean"

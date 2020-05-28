@@ -35,11 +35,6 @@
     "category": {
       "via": "images",
       "model": "category"
-    },
-    "user": {
-      "via": "images",
-      "plugin": "users-permissions",
-      "model": "user"
     }
   }
 }
