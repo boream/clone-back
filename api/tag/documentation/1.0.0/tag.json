@@ -524,43 +524,6 @@
           },
           "name": {
             "type": "string"
-          },
-          "images": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "published": {
-                  "type": "boolean"
-                },
-                "file": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "name": {
-                  "type": "string"
-                },
-                "published_date": {
-                  "type": "string"
-                },
-                "tags": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "category": {
-                  "type": "string"
-                }
-              }
-            }
           }
         }
       },
@@ -568,12 +531,6 @@
         "properties": {
           "name": {
             "type": "string"
-          },
-          "images": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
           }
         }
       }

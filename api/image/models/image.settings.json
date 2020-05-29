@@ -13,7 +13,7 @@
       "type": "boolean"
     },
     "file": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -28,13 +28,14 @@
       "type": "date"
     },
     "tags": {
-      "collection": "tag",
-      "via": "images",
-      "dominant": true
+      "collection": "tag"
     },
     "category": {
-      "via": "images",
       "model": "category"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

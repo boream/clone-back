@@ -68,9 +68,6 @@
       "plugin": "upload",
       "required": false
     },
-    "images": {
-      "collection": "image"
-    },
     "active": {
       "type": "boolean"
     }

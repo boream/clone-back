@@ -11,10 +11,6 @@
   "attributes": {
     "Title": {
       "type": "string"
-    },
-    "images": {
-      "collection": "image",
-      "via": "category"
     }
   }
 }

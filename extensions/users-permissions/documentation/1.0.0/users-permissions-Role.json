@@ -618,9 +618,6 @@
                 "profile": {
                   "type": "string"
                 },
-                "images": {
-                  "type": "string"
-                },
                 "active": {
                   "type": "boolean"
                 }
