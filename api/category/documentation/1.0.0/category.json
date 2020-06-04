@@ -522,14 +522,14 @@
           "id": {
             "type": "string"
           },
-          "Title": {
+          "title": {
             "type": "string"
           }
         }
       },
       "NewCategory": {
         "properties": {
-          "Title": {
+          "title": {
             "type": "string"
           }
         }

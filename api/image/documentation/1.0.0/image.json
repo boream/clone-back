@@ -613,7 +613,7 @@
               "id": {
                 "type": "string"
               },
-              "Title": {
+              "title": {
                 "type": "string"
               }
             }
